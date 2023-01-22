@@ -213,26 +213,17 @@ strong {
 }
 
 @media only screen and (max-width: 800px) {
-  .avatar {
-    width: 400px;
+  .wrapper {
+    padding: 2.4rem;
     margin: 0 auto;
+    width: 400px;
   }
 
-  .about {
-    width: 400px;
-    margin: 0 auto;
+  .avatar {
+    margin-top: 250px;
   }
 
   .flex {
     flex-direction: column;
-  }
-
-  .portfolio:link,
-  .portfolio:visited {
-    width: 400px;
-  }
-
-  .invite__image {
-    width: 400px;
   }
 }
